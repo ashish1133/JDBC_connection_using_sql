@@ -59,7 +59,7 @@ class mergesort{
 
     public static void main(String[] args) {
 
-        int[] arr= {22,76,13,65,34,90,87,43};
+        int[] arr= {22,76,13,65,34,90,87,43,2};
 
         mergesort o = new mergesort();
         o.sort(arr,0, arr.length-1);
